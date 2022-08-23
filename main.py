@@ -28,9 +28,9 @@ def post_vk(post):
 	time_to_send = "21:00"
 	print(current_time)
 	if current_time==time_to_send:
-		print(vk.wall.post(message='Новый день'))
+		print(vk.wall.post(message='Новый день', from_group = '1', owner_id = '-215521028'))
 		sleep(5)
-		print(vk.wall.post(message = post))
+		print(vk.wall.post(message = post, from_group = '1', owner_id = '-215521028'))
 	sleep(55)
 
 
