@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.1
+PyMySQL==1.0.2
+requests==2.28.1
+vk_api==11.9.9
